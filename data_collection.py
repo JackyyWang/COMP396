@@ -88,6 +88,6 @@ for playlist_id in playlist_id_list:
 
         data[video_id] = video_data
 
-with open('CNN_playlist_data.json', 'w') as outfile:
+with open('playlist_data.json', 'w') as outfile:
     json.dump(data, outfile, indent=4)
 
