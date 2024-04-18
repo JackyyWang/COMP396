@@ -8,7 +8,7 @@ import json
 scopes = ["https://www.googleapis.com/auth/youtube.force-ssl"]
 api_service_name = "youtube"
 api_version = "v3"
-client_secrets_file = "client_secret_826043790181-bohn7ke9a9cd4embpl9d6b4lod441ev8.apps.googleusercontent.com.json"
+client_secrets_file = ""
 
 # Get credentials and create an API client
 flow = google_auth_oauthlib.flow.InstalledAppFlow.from_client_secrets_file(
